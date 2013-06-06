@@ -35,7 +35,7 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 __author__ = "Christopher M. Bruns"
 __version__ = "0.6"
 
-from basedimension import BaseDimension
+from .basedimension import BaseDimension
 
 ##################
 ### DIMENSIONS ###

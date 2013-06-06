@@ -50,8 +50,8 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 __author__ = "Christopher M. Bruns"
 __version__ = "0.5"
 
-from unit import Unit, is_unit
-from quantity import Quantity, is_quantity
+from .unit import Unit, is_unit
+from .quantity import Quantity, is_quantity
 
 # Attach methods of Unit class that return a Quantity to Unit class.
 # I put them here to avoid circular dependence in imports.

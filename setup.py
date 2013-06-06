@@ -1,8 +1,10 @@
 """
 setup.py: Install simtk.units
 """
-
-from distutils.core import setup
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
 
 major_version_num='0'
 minor_version_num='1'
@@ -17,6 +19,7 @@ def doSetup():
     setupKeywords["packages"]          = ["simtk", "simtk.unit"]
     setupKeywords["data_files"]        = []
     setupKeywords["platforms"]         = ["Linux", "Mac OS X", "Windows"]
+    setupKeywords["use_2to3"]          = True
     setupKeywords["description"]       = "Units for python"
     setupKeywords["long_description"]  = \
     """Units-aware quantity classes for python

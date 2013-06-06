@@ -39,8 +39,8 @@ __version__ = "0.5"
 
 
 import math
-from quantity import is_quantity
-from unit_definitions import *
+from .quantity import is_quantity
+from .unit_definitions import *
 
 ####################
 ### TRIGONOMETRY ###

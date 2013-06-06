@@ -10,8 +10,8 @@ __license__ = "MIT"
 __maintainer__ = "Christopher M. Bruns"
 __email__ = "cmbruns@stanford.edu"
 
-from unit import Unit, is_unit
-from quantity import Quantity, is_quantity
-from unit_math import *
-from unit_definitions import *
-from constants import *
+from .unit import Unit, is_unit
+from .quantity import Quantity, is_quantity
+from .unit_math import *
+from .unit_definitions import *
+from .constants import *
