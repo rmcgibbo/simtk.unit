@@ -11,7 +11,7 @@ minor_version_num='1'
 
 def doSetup():
     setupKeywords = {}
-    setupKeywords["name"]              = "simtk.units"
+    setupKeywords["name"]              = "simtk.unit"
     setupKeywords["version"]           = "%s.%s" % (major_version_num, minor_version_num)
     setupKeywords["author"]            = "Christopher M. Bruns"
     setupKeywords["author_email"]      = "cmbruns@stanford.edu"
