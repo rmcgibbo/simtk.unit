@@ -15,6 +15,7 @@ def doSetup():
     setupKeywords["version"]           = "%s.%s" % (major_version_num, minor_version_num)
     setupKeywords["author"]            = "Christopher M. Bruns"
     setupKeywords["author_email"]      = "cmbruns@stanford.edu"
+    setupKeywords["url"]               = "https://github.com/rmcgibbo/simtk.unit"
     setupKeywords["license"]           = "Python Software Foundation License (BSD-like)"
     setupKeywords["packages"]          = ["simtk", "simtk.unit"]
     setupKeywords["data_files"]        = []
